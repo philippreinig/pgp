@@ -1,0 +1,9 @@
+digraph G {
+  A [style=filled, fillcolor=red];
+  A -> B1;
+  A -> B2;
+  A -> C;
+  C -> D;
+  D -> E;
+  E -> D;
+}
