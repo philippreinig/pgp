@@ -26,9 +26,6 @@ test = ****&p6;     43
 test = **p8;        43
 p3 = p9;            Keine Zuweisung zu test und irrelevant für Rest des Programms
 test = **p8;        43
-
-
-
 */
 
 
