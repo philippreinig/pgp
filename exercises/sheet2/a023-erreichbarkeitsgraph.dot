@@ -1,8 +1,18 @@
 digraph G {
-  A [style=filled, fillcolor=red];
-  A -> B1;
-  A -> B2;
-  A -> C;
+  node[shape=rectangle]
+
+
+  subgraph cluster_1 {
+    label=root;
+    color=green;
+    A1;
+    A2;
+    C;
+  }
+  A1 -> B1;
+  A1 -> B2;
+  A2 -> B3;
+  A2 -> B4;
   C -> D;
   D -> E;
   E -> D;
