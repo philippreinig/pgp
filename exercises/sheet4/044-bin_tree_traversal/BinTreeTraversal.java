@@ -297,12 +297,3 @@ public class BinTreeTraversal {
         System.out.println();
     }
 }
-
-/*
-    TODO:
-
-    Your part starts here implement your chosen traversal strategies e.g. a
-
-        InorderIterable(compliant to the Iterable interface(https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html?is-external=true#iterator--)), which creates an InorderIterator (compliant to the Iterator interface(https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html))
-
- */
