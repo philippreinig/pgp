@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.Month;
 
 /*
 
@@ -49,7 +50,7 @@ object Main {
     }
 
     def getAllPeopleWithBirthdayInOctober(people : List[Person]): List[Person] = {
-        people.filter(getBirthMonth(_) == 10)
+        people.filter(getBirthMonth(_) == Month.OCTOBER)
     }
 
     // 3)
